@@ -17,12 +17,9 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.teal[900],
       ),
-      body: Center(
-        child: IconButton(
-          icon: Icon(Icons.android),
-          color: Colors.lightGreen,
-          onPressed: () {},
-        ),
+      body: Padding(
+        padding: EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+        child: Text('Hello!'),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.teal[900],
