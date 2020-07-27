@@ -18,12 +18,16 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.teal[900],
       ),
       body: Center(
-        child: Image.asset('assets/background2.jpg'),
+        child: IconButton(
+          icon: Icon(Icons.android),
+          color: Colors.lightGreen,
+          onPressed: () {},
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.teal[900],
         child: Text('click'),
-        onPressed: null,
+        onPressed: () {},
       ),
     );
   }
