@@ -18,16 +18,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.teal[900],
       ),
       body: Center(
-        child: Text(
-          'Hi Ezaz!',
-          style: TextStyle(
-            fontFamily: 'FredokaOne',
-            fontSize: 18.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.blueGrey[600],
-          ),
-        ),
+        child: Image.asset('assets/background2.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.teal[900],
