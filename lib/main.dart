@@ -23,13 +23,6 @@ class Home extends StatelessWidget {
         children: <Widget>[
           Container(
             padding: EdgeInsets.all(20.0),
-            color: Colors.pink,
-            child: Center(
-              child: Text('pink'),
-            ),
-          ),
-          Container(
-            padding: EdgeInsets.all(20.0),
             color: Colors.blue,
             child: Center(
               child: Text('blue'),
@@ -40,6 +33,13 @@ class Home extends StatelessWidget {
             color: Colors.yellow,
             child: Center(
               child: Text('yellow'),
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.all(20.0),
+            color: Colors.pink,
+            child: Center(
+              child: Text('pink'),
             ),
           ),
         ],
